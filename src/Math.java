@@ -1,15 +1,13 @@
 public class Math {
 
     boolean isEven(int a){
-        int div = a%2;
-        boolean result = div !=1;
+        boolean result = a%2 !=1;
        return result;
     }
 
-    boolean isOdd(int a){
-        int div = a%2;
-        boolean result = div !=0;
-        return result;
+    void isOdd(int a){
+        boolean odd = !isEven(a);
+        System.out.println(odd);
     }
 
     double circleField(double r){
@@ -18,7 +16,7 @@ public class Math {
     }
 
     int power(int a){
-        int mul = a*a;
-        return mul;
+        int multiply = a*a;
+        return multiply;
     }
 }
