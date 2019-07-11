@@ -5,9 +5,9 @@ public class Math {
        return result;
     }
 
-    void isOdd(int a){
+    boolean isOdd(int a){
         boolean odd = !isEven(a);
-        System.out.println(odd);
+        return odd;
     }
 
     double circleField(double r){
